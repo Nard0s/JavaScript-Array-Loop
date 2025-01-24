@@ -27,7 +27,7 @@ console.log(arr) // []
 ```js
 
 // This the most recommended way to create an empty list
-const arr = []
+const arr = [  ]
 console.log(arr)
 ```
 
@@ -143,7 +143,6 @@ const countries = [
   'Bolivia',
   'Canada',
   'Denmark',
-  'Ethiopia',
   'Finland',
   'Germany',
   'Hungary',
@@ -152,7 +151,7 @@ const countries = [
   'Kenya'
 ]
 
-countries[0] = 'Afghanistan'  // Replacing Albania by Afghanistan
+countries[0] = 'Afghanistan'  // Replacing Ethiopia by Afghanistan
 let lastIndex = countries.length - 1
 countries[lastIndex] = 'Korea' // Replacing Kenya by Korea
 
