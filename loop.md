@@ -11,6 +11,7 @@ consist 3 parts
  - an integer value 
  - a conditional statement
  - an operator to modify(change) the integer value after the instructions inside of the loop are completed.
+  
   ![arr index](./img/Screenshot%202025-01-24%20171336.png)
 ```js
 // For loop structure
