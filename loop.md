@@ -7,7 +7,11 @@ Most of the activities we do in life are full of repetitions. Imagine if I ask y
 In programming languages to carry out repetitive task we use different kinds of loops. The following examples are the commonly used loops in JavaScript and other programming languages.
 
 # for Loop
-
+consist 3 parts
+ - an integer value 
+ - a conditional statement
+ - an operator to modify(change) the integer value after the instructions inside of the loop are completed.
+  ![arr index](./img/Screenshot%202025-01-24%20171336.png)
 ```js
 // For loop structure
 for(initialization, condition, increment/decrement){
@@ -95,6 +99,10 @@ console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
 
 # while loop
 
+The while loop is used when the number of iterations is not known and you want to continue looping until a certain condition is met.
+
+![arr index](./img/Screenshot%202025-01-24%20171430.png)
+
 ```js
 let i = 0
 while (i <= 5) {
@@ -106,6 +114,11 @@ while (i <= 5) {
 ```
 
 # do while loop
+
+The do...while loop is similar to the while loop, but it guarantees that the code block is executed at least once, even if the condition is false on the first check.
+
+
+![arr index](./img/Screenshot%202025-01-24%20171519.png)
 
 ```js
 let i = 0
@@ -179,9 +192,9 @@ for (const tech of webTechs) {
 
 ```js
 const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
-const newArr = []
+const newArr = [  ]
 for(const country of countries){
-  newArr.push(country.toUpperCase())
+  newArr.push(country.toUpperCase(  ))
 }
 
 console.log(newArr)  // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
