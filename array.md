@@ -297,7 +297,7 @@ console.log(webTechs.includes('C'))     // false
 
 ## Checking array
 
-`Array.isArray`:To check if the data type is an array
+`Array.isArray`:To check if the data type is an array.
 
 ```js
 const numbers = [1, 2, 3, 4, 5]
