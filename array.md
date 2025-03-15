@@ -17,7 +17,7 @@ It is very  common to use _const_ instead of _let_ to declare an array variable.
 // syntax
 const arr = Array()
 // or
- let arr = new Array()
+ let arr = new  Array()
  ======================
 console.log(arr) // []
 ```
